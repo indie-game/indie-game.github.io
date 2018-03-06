@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/* ------------------------------------
+*
+*Since: 2018-03-06
+*Modified:
+*Editor: tatejima
+*
+-------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+body {
+	background: #fff;
+  text-align: center;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a { color: #02201e; }
+a:hover { color: #22f3d4; }
+
+img {
+  border: none;
+  vertical-align: bottom;
+}
+
+h1 {
+  width: 100%;
+  background-color: #02201e;
+}
+
+section {
+	padding: 80px 20px;
+}
+
+section.even {
+  background-color: #eee;
+}
+
+section h1 {
+	margin-bottom: 24px;
+  background-color: transparent;
+  color: #02201e;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+section hr {
+  width: 48px;
+  margin-bottom: 40px;
+  border-top: 1px solid #02201e;
+}
+
+section p {
+	width: 1000px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+section .event {
+  display: flex;
+	width: 600px;
+  height: 320px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  align-items: center;
+}
+
+section .event p {
+	width: 100%;
+  color: #fff;
+  font-size: 24px;
+}
+
+section ul {
+  display: flex;
+  justify-content: space-around;
+	width: 840px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 img {
+    width: 100%;
+  }
+
+  section {
+  	padding: 40px 10px;
+  }
+
+  section h1 {
+    font-size: 26px;
+  }
+
+  section hr {
+    margin-bottom: 32px;
+  }
+
+  section p {
+  	width: 96%;
+    text-align: left;
+  }
+
+  section .event {
+  	width: 96%;
+    align-items: center;
+  }
+
+  section .event p {
+    text-align: center;
+  }
+
+  section ul {
+    flex-direction: column;
+    width: 96%;
+  }
+}
+
+footer {
+	padding: 40px 20px;
+  color: #999;
+  font-size: 12px;
+}
