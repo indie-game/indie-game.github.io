@@ -106,8 +106,13 @@ section .event p {
 section ul {
   display: flex;
   justify-content: space-around;
-	width: 840px;
+	width: 1080px;
   margin: 0 auto;
+  align-items: center;
+}
+
+section ul li {
+	width: 360px;
 }
 
 @media only screen and (max-width: 767px) {
